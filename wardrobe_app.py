@@ -9,7 +9,7 @@ class WardrobeApp:
         self.root.geometry("900x700")
         self.root.config(bg="#FAD2E1")
 
-        self.bg_image = Image.open("venv/Background.jpg")
+        self.bg_image = Image.open("Background.jpg")
         self.bg_image = self.bg_image.resize((900, 700))
         self.bg_photo = ImageTk.PhotoImage(self.bg_image)
 
